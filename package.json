@@ -1,0 +1,22 @@
+{
+  "name": "frangione-org.github.io",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ABC Tutoring prototype website with PostHog analytics",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "simulate": "node scripts/simulate-traffic.mjs"
+  },
+  "dependencies": {
+    "posthog-js": "^1.203.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
+  }
+}
